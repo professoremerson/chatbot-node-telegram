@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/professoremerson/chatbot-node-telegram/issues"
   },
-  "homepage": "https://github.com/professoremerson/chatbot-node-telegram#readme"
+  "homepage": "https://github.com/professoremerson/chatbot-node-telegram#readme",
+  "dependencies": {
+    "axios": "0.17.1",
+    "telegraf": "3.17.3"
+  }
 }
