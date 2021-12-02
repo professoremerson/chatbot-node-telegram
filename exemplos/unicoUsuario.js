@@ -12,6 +12,7 @@ bot.start(ctx => {
         ctx.reply(`Cai fora ${from.first_name} ${from.last_name}! Só falo com meu mestre!!`)
     }
     else {
+        console.log(from.id)
         ctx.reply(`Seja bem vindo meu Mestre! Senti sua falta!`)
     }
 })
